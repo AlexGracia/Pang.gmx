@@ -17,6 +17,7 @@
     <sprite>sprites\sprBall</sprite>
     <sprite>sprites\sprHook</sprite>
     <sprite>sprites\sprCable</sprite>
+    <sprite>sprites\sprLadders</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\mainBackground</background>
@@ -38,6 +39,7 @@
     <object>objects\objGameMgr</object>
     <object>objects\objHook</object>
     <object>objects\objBall</object>
+    <object>objects\objLadders</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainRoom</room>
