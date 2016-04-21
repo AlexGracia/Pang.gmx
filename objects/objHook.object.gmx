@@ -142,7 +142,6 @@ for (i = 0; i &lt; numCableImgs; i++)
 {
     draw_sprite(sprCable, 0, x, y + 16 + i * 32);
 }
-
 </string>
           </argument>
         </arguments>
