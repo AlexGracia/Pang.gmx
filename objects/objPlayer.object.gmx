@@ -148,6 +148,18 @@
             <string>/// Variables
 audio_play_sound(soundBg, 0, 1);
 image_speed = 0.5;
+
+// Ladders
+heightStep = 16;
+// Time up ladders
+seconds = 0.1;
+duration = 30 * seconds;
+// Clamp ladders
+laddersHeight = sprite_get_height(sprLadders);
+minYLadders = objLadders.y;
+maxYLadders = objLadders.y + laddersHeight;
+
+numSteps = 0;
 </string>
           </argument>
         </arguments>
@@ -273,22 +285,28 @@ if (keyboard_check_pressed(vk_control))
 }
 
 // Collision ladders
-if (place_meeting(x, y, objLadders)){
+if (place_meeting(x, y + 1, objLadders)){
     grav = 0;
-    // Up
-    if (keyboard_check(vk_up)){
-        y -= 33;
-    }
 
-    // Down
-    else if (keyboard_check(vk_down) &amp;&amp; place_free(x, y + 33)){
-        y += 33;
+    if (numSteps &gt;= duration){
+        // Up
+        if (keyboard_check(vk_up)){
+            y -= heightStep;
+        }
+    
+        // Down
+        else if (keyboard_check(vk_down)){
+            y += heightStep;
+        }
+
+        y = clamp(y, minYLadders, maxYLadders);
+        numSteps = 0;
     }
 }
-if (place_meeting(x, y-1, objLadders))
-    grav = 0;
 else
     grav = 1;
+
+numSteps += 1;
 
 </string>
           </argument>
