@@ -11,15 +11,18 @@
     <sound>sound\soundPomp</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sprPlayer</sprite>
     <sprite>sprites\sprColSide</sprite>
     <sprite>sprites\sprColHoriz</sprite>
-    <sprite>sprites\sprPlayerWalking</sprite>
     <sprite>sprites\sprBall</sprite>
     <sprite>sprites\sprHook</sprite>
     <sprite>sprites\sprCable</sprite>
     <sprite>sprites\sprLadders</sprite>
     <sprite>sprites\sprNonDestructiblePlatform</sprite>
+    <sprites name="player">
+      <sprite>sprites\sprPlayer</sprite>
+      <sprite>sprites\sprUpDown</sprite>
+      <sprite>sprites\sprPlayerWalking</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\mainBackground</background>
