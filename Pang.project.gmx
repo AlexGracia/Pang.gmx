@@ -18,6 +18,7 @@
     <sprite>sprites\sprCable</sprite>
     <sprite>sprites\sprLadders</sprite>
     <sprite>sprites\sprNonDestructiblePlatform</sprite>
+    <sprite>sprites\sprDestructiblePlatform</sprite>
     <sprites name="player">
       <sprite>sprites\sprPlayer</sprite>
       <sprite>sprites\sprUpDown</sprite>
@@ -46,6 +47,7 @@
     <object>objects\objBall</object>
     <object>objects\objLadders</object>
     <object>objects\objNonDestructiblePatform</object>
+    <object>objects\objDestructiblePatform</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\mainRoom</room>

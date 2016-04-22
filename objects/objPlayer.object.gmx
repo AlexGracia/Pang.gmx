@@ -161,6 +161,11 @@ if (place_meeting(x, y + 1, objLadders)){
         numSteps = 0;
     }
 }
+
+// Collision platforms
+else if (place_meeting(x, y + 1, objDestructiblePatform) || place_meeting(x, y + 1, objNonDestructiblePatform))
+    grav = 0;
+
 else
     grav = 1;
 
