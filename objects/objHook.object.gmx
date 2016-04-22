@@ -91,6 +91,7 @@ if (ballId != noone)
     // we hit a ball
     with (ballId)
     {
+        audio_play_sound(soundPomp, 0, 0);
         instance_destroy();
     }
     

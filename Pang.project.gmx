@@ -8,6 +8,7 @@
     <sound>sound\soundGameOver</sound>
     <sound>sound\soundCongratulations</sound>
     <sound>sound\soundBg</sound>
+    <sound>sound\soundPomp</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprPlayer</sprite>
