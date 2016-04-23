@@ -4,12 +4,14 @@
 numBalls = instance_number(objBall);
 if (numBalls == 0)
 {
-    audio_stop_all();
-    audio_play_sound(soundCongratulations, 0, 0);
 
-    // show a victory message
-    show_message("You win!!!");
-    
-    // maybe go to the next screen?
-    room_restart();
+    audio_stop_all();
+    // End room, end game
+    if (room == room_last){
+        audio_play_sound(soundCongratulations, 0, 0);
+        show_message("You win!!!");
+        game_restart();
+    }
+    else
+        room_goto_next();
 }

@@ -25,8 +25,13 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>/// Random direction
-xSpeed = choose(10, -10);
+            <string>/// Clour
+
+if (room == 1)
+    image_blend = c_fuchsia;
+
+else if (room == 2)
+    image_blend = c_red;
 </string>
           </argument>
         </arguments>

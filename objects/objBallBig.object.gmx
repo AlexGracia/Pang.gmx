@@ -26,14 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>// create some necessary variables
-xSpeed = 10;
+// Random direction
+xSpeed = choose(10, -10);
 ySpeed = 0;
 bounceYSpeed = -22;
 
 // scale the ball to be BIG
 image_xscale = 1;
 image_yscale = 1;
-
 </string>
           </argument>
         </arguments>

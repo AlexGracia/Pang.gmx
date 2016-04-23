@@ -78,14 +78,6 @@
             <string>// we move at constant velocity
 y -= hookSpeed;
 
-// Collision destructible platform
-if (place_meeting(x, y, objDestructiblePatform)){
-    with (objDestructiblePatform)
-        instance_destroy();
-    instance_destroy();
-    exit;
-}
-
 // if we collide with anything solid delete ourselves
 if (!place_free(x, y))
 {

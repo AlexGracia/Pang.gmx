@@ -7,8 +7,12 @@
   <sounds name="sound">
     <sound>sound\soundGameOver</sound>
     <sound>sound\soundCongratulations</sound>
-    <sound>sound\soundBg</sound>
     <sound>sound\soundPomp</sound>
+    <sounds name="roomLvls">
+      <sound>sound\soundRoomLvl1</sound>
+      <sound>sound\soundRoomLvl2</sound>
+      <sound>sound\soundRoomLvl3</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprColSide</sprite>
@@ -26,7 +30,9 @@
     </sprites>
   </sprites>
   <backgrounds name="background">
-    <background>background\mainBackground</background>
+    <background>background\BgRoom1</background>
+    <background>background\BgRoom2</background>
+    <background>background\BgRoom3</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
@@ -48,9 +54,12 @@
     <object>objects\objLadders</object>
     <object>objects\objNonDestructiblePatform</object>
     <object>objects\objDestructiblePatform</object>
+    <object>objects\objSoundBg</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\mainRoom</room>
+    <room>rooms\roomLvl1</room>
+    <room>rooms\roomLvl2</room>
+    <room>rooms\roomLvl3</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>

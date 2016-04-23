@@ -26,7 +26,6 @@
           <argument>
             <kind>1</kind>
             <string>/// Variables
-audio_play_sound(soundBg, 0, 1);
 image_speed = 0.5;
 targetSpeedX = 0;
 acceleration = 2;
@@ -38,7 +37,7 @@ grav = 1;
 // Ladders
 heightStep = 16;
 // Time up ladders
-secondsLadders = 0.1;
+secondsLadders = 0.05;
 durationLadders = 30 * secondsLadders;
 // Clamp ladders
 laddersHeight = sprite_get_height(sprLadders);
@@ -134,7 +133,7 @@ if (keyboard_check_pressed(vk_control))
     if (numHooks &lt; maxHooksActive)
     {
         // shoot a new hook
-        instance_create(x, y - 16, objHook);
+        instance_create(x, y - sprite_get_height(sprCable), objHook);
     }
 }
 
