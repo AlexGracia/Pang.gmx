@@ -162,9 +162,9 @@ if (place_meeting(x, y + 1, objLadders)){
 }
 
 // Collision platforms
-else if (place_meeting(x, y + 1, objDestructiblePatform) || place_meeting(x, y + 1, objNonDestructiblePatform))
+else if (place_meeting(x, y + sprite_get_height(sprDestructiblePlatform), objDestructiblePlatform) || place_meeting(x, y + sprite_get_height(sprNonDestructiblePlatform), objNonDestructiblePlatform)){
     grav = 0;
-
+}
 else
     grav = 1;
 

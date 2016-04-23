@@ -58,10 +58,10 @@
     <instance objName="objColHoriz" x="0" y="400" name="inst_95D71A1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objGameMgr" x="16" y="16" name="inst_A597449B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLadders" x="416" y="272" name="inst_2F833787" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDestructiblePatform" x="256" y="272" name="inst_3EB830AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDestructiblePatform" x="64" y="272" name="inst_439F3485" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objNonDestructiblePatform" x="160" y="272" name="inst_8A948195" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objNonDestructiblePatform" x="352" y="272" name="inst_C45CF6E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDestructiblePlatform" x="256" y="272" name="inst_3EB830AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDestructiblePlatform" x="64" y="272" name="inst_439F3485" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objNonDestructiblePlatform" x="160" y="272" name="inst_8A948195" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objNonDestructiblePlatform" x="352" y="272" name="inst_C45CF6E0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSoundBg" x="736" y="16" name="inst_813AD4EC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBallVerySmall" x="64" y="64" name="inst_FD8DCA2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBallVerySmall" x="160" y="64" name="inst_8353DE32" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

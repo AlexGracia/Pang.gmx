@@ -59,8 +59,8 @@
     <instance objName="objGameMgr" x="16" y="16" name="inst_A597449B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objBallBig" x="464" y="112" name="inst_981F1837" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLadders" x="688" y="272" name="inst_2F833787" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objNonDestructiblePatform" x="624" y="272" name="inst_8EA20CE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="objDestructiblePatform" x="192" y="272" name="inst_3EB830AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objNonDestructiblePlatform" x="624" y="272" name="inst_8EA20CE2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="objDestructiblePlatform" x="192" y="272" name="inst_3EB830AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objLadders" x="128" y="272" name="inst_1E773619" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="objSoundBg" x="736" y="16" name="inst_53F92DC2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>

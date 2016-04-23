@@ -52,8 +52,8 @@
     <object>objects\objHook</object>
     <object>objects\objBall</object>
     <object>objects\objLadders</object>
-    <object>objects\objNonDestructiblePatform</object>
-    <object>objects\objDestructiblePatform</object>
+    <object>objects\objNonDestructiblePlatform</object>
+    <object>objects\objDestructiblePlatform</object>
     <object>objects\objSoundBg</object>
   </objects>
   <rooms name="rooms">

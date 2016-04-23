@@ -78,6 +78,16 @@
             <string>// we move at constant velocity
 y -= hookSpeed;
 
+// Collision objDestructiblePatform
+var inst = instance_place(x, y, objDestructiblePlatform);
+if (inst != noone){
+    // Destroy platform
+    with (inst) instance_destroy();
+    // Destroy hook
+    instance_destroy();
+    exit;
+}
+
 // if we collide with anything solid delete ourselves
 if (!place_free(x, y))
 {
