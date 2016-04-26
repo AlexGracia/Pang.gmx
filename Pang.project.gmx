@@ -25,7 +25,6 @@
     <sprite>sprites\sprDestructiblePlatform</sprite>
     <sprites name="player">
       <sprite>sprites\sprPlayer</sprite>
-      <sprite>sprites\sprUpDown</sprite>
       <sprite>sprites\sprPlayerWalking</sprite>
     </sprites>
   </sprites>

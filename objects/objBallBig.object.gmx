@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>// create some necessary variables
 // Random direction
-xSpeed = choose(10, -10);
+xSpeed = choose(8, -8);
 ySpeed = 0;
 bounceYSpeed = -22;
 

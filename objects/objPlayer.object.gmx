@@ -120,9 +120,7 @@ if (hspeed != 0)
     image_xscale = sign(hspeed);
 }
 else
-{
     sprite_index = sprPlayer;
-}
 
 // check if the player wants to shoot
 if (keyboard_check_pressed(vk_control))
@@ -144,14 +142,12 @@ if (place_meeting(x, y + 1, objLadders)){
     if (numSteps &gt;= durationLadders){
         // Up
         if (keyboard_check(vk_up) &amp;&amp; y &gt; minYLadders){
-            sprite_index = sprUpDown;
             image_xscale = -image_xscale;
             y -= heightStep;
         }
     
         // Down
         else if (keyboard_check(vk_down) &amp;&amp; y &lt; maxYLadders){
-            sprite_index = sprUpDown;
             image_xscale = -image_xscale;
             y += heightStep;
         }
@@ -168,9 +164,7 @@ else if (place_meeting(x, y + sprite_get_height(sprDestructiblePlatform), objDes
 else
     grav = 1;
 
-
 numSteps += 1;
-
 </string>
           </argument>
         </arguments>
